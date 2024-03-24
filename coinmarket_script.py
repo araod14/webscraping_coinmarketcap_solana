@@ -25,5 +25,5 @@ def evaluate(number):
     return df
 
 if __name__ == "__main__":
-    print(evaluate(3))
-    
+    pages = int(input("Numero de paginas: ",))
+    print(evaluate(pages))
